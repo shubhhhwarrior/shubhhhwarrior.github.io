@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:400,700);
+.contact-form-cf .box {
+  position: fixed;
+  z-index: 999;
+  width: 56px;
+  height: 56px;
+  right: 20px;
+  bottom: 20px;
+  display: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  line-height: 1.4;
+  text-align: left;
+}
+
+.contact-form-cf .box * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact-form-cf .box *::after,
+.contact-form-cf .box *::before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.contact-form-cf .button {
+  position: relative;
+  border: none;
+  width: 56px;
+  height: 56px;
+  cursor: pointer;
+  outline: 0 !important;
+  border-radius: 50%;
+  color: #fff;
+  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14),
+    0 1px 7px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 7px 0 rgba(0, 0, 0, 0.12),
+    0 3px 1px -1px rgba(0, 0, 0, 0.2);
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-size: 18px;
+}
+
+.contact-form-cf .button span {
+  position: absolute;
+  width: 56px;
+  height: 56px;
+  display: block;
+  left: 0;
+  top: 0;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-form-cf .button i {
+  line-height: 56px;
+}
+
+.contact-form-cf .button i:not(.material-icons) {
+  font-size: 18px;
+}
+
+.contact-form-cf .icon {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.contact-form-cf .box.showing .m-cf-icon-default {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.contact-form-cf .box.showing .icon {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.contact-form-cf .panel {
+  font-family: Nunito Sans;
+}
