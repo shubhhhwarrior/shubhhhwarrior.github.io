@@ -6,7 +6,7 @@
   -->
 
 <script
-  src="https://cdn.jsdelivr.net/gh/tuhinpal/contact-form@master/src/contact-form.min.js"
+  src="https://cdn.jsdelivr.net/gh/shubhhhwarrior/shubhhhwarrior.github.io@main/src/contact-form.min.js"
   id="contactform"
   error_text=""
   success_text=""
