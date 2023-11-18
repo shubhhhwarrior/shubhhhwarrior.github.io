@@ -120,7 +120,7 @@
      error_text=""
      success_text=""
      disable_waittime="true"
-     form_worker_url="https://shubhhhwarrior.shubhhhwarrior.workers.dev/"
+     form_worker_url="https://cfform.shubhhhwarrior.workers.dev"
    ></script>
      <script>
           document.onkeydown = function (e) {
@@ -141,8 +141,14 @@
                }
           }
      </script>
-    <script src="src/app.js"></script>
-    <script src="/src/contact-form.js" id="contactform" error_text="" success_text="" disable_waittime="true" form_worker_url="https://cfform.shubhhhwarrior.workers.dev/"></script>
+     <script src="src/app.js"></script>
+     <script
+          form_worker_url="https://cfform.shubhhhwarrior.workers.dev"
+          src="/contactform/contact-form.js"
+          error_text=""
+          success_text=""
+          disable_waittime="true"
+          id="contactform">
+     </script>
 </body>
-
 </html>
